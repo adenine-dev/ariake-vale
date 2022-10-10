@@ -1,0 +1,10 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "cmd": "node generate.js"
+      }
+    ]
+  },
+  "cSpell.words": ["ariake"]
+}

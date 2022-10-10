@@ -1,6 +1,6 @@
 {
   "name": "ariake-vale",
-  "displayName": "ariake-vale",
+  "displayName": "Ariake Vale",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -14,7 +14,7 @@
       {
         "label": "Ariake Vale",
         "uiTheme": "vs-dark",
-        "path": "./themes/Ariake Vale-color-theme.json"
+        "path": "./themes/Ariake-Vale-color-theme.json"
       }
     ]
   }
