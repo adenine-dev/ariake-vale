@@ -14,7 +14,6 @@
   "lilac": "#b1b2f2",
   "white": "#ffffff",
   "transparent": "#00000000",
-
   "background-darkest": "#111317",
   "background-darker": "#1c1f26",
   "background-dark": "#232830",
@@ -22,12 +21,11 @@
   "background-lightish": "#343d46",
   "background-lightisher": "#4f5b66",
   "background-light": "#65737e",
+  "background-lighter": "#8E9AA4",
   "background-active": "@background-light:55@",
-
   "foreground": "#c0c5ce",
   "foreground-light": "#DCDFE4",
   "foreground-dark": "#090A0B",
-
   "accent": "@pink@",
   "on-accent": "@background-darkest:dd@",
   "on-accent2": "@background-darkest:aa@",
@@ -47,16 +45,13 @@
   "deleted": "@red@",
   "link": "@baby-blue@",
   "comment": "#555C77",
-
   "mc-current": "@light-blue@",
   "mc-incoming": "@baby-blue@",
   "mc-common": "@light-yellow@",
-
   "inlay-bg": "@rose:33@",
   "inlay-fg": "@pink@",
   "type": "@magenta@",
   "selection-bg": "@foreground:30@",
-
   "ansiBlack": "#000000",
   "ansiBlue": "@baby-blue@",
   "ansiCyan": "@light-blue@",
@@ -73,6 +68,5 @@
   "ansiBrightRed": "@ansiRed@",
   "ansiBrightWhite": "@ansiWhite@",
   "ansiBrightYellow": "@ansiYellow@",
-
   "literal": "@light-blue@"
 }

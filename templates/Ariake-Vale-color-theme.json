@@ -1,6 +1,10 @@
 {
   "$schema": "vscode://schemas/color-theme",
   "name": "Ariake Vale",
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "string": "@literal@"
+  },
   "colors": {
     // contrast colors (unused)
     // "contrastActiveBorder": "",
@@ -41,9 +45,9 @@
     // "button.border": "@transparent@",
     "button.separator": "@on-accent2@",
     "button.hoverBackground": "@accent@",
-    "button.secondaryForeground": "@on-accent2@",
-    "button.secondaryBackground": "@accent:dd@",
-    "button.secondaryHoverBackground": "@accent:e0@",
+    "button.secondaryForeground": "@foreground@",
+    "button.secondaryBackground": "@background-light:dd@",
+    "button.secondaryHoverBackground": "@background-light@",
     "checkbox.background": "@background-dark@",
     "checkbox.foreground": "@foreground@",
     // "checkbox.border": "@transparent@",
@@ -200,7 +204,7 @@
     "editor.foreground": "@foreground@",
     "editorLineNumber.foreground": "@background-light@",
     "editorLineNumber.activeForeground": "@foreground@",
-    "editorCursor.background": "@accent@",
+    "editorCursor.background": "@background@",
     "editorCursor.foreground": "@accent@",
     "editor.selectionBackground": "@highlight@",
     // "editor.selectionForeground": "#ff0000",
@@ -589,6 +593,28 @@
     "gitDecoration.conflictingResourceForeground": "@error@",
     "gitDecoration.submoduleResourceForeground": "@foreground@",
 
+    // Settings Editor colors
+    "settings.headerForeground": "@foreground@",
+    "settings.modifiedItemIndicator": "@modified@",
+    // "settings.dropdownBackground": "#ff00ff",
+    // "settings.dropdownForeground": "#ff00ff",
+    // "settings.dropdownBorder": "#ff00ff",
+    // "settings.dropdownListBorder": "#ff00ff",
+    // "settings.checkboxBackground": "#ff00ff",
+    // "settings.checkboxForeground": "#ff00ff",
+    // "settings.checkboxBorder": "#ff00ff",
+    // "settings.rowHoverBackground": "#ff00ff",
+    // "settings.textInputBackground": "#ff00ff",
+    // "settings.textInputForeground": "#ff00ff",
+    // "settings.textInputBorder": "#ff00ff",
+    // "settings.numberInputBackground": "#ff00ff",
+    // "settings.numberInputForeground": "#ff00ff",
+    // "settings.numberInputBorder": "#ff00ff",
+    // "settings.focusedRowBackground": "#ff00ff",
+    // "settings.focusedRowBorder": "#ff00ff",
+    "settings.headerBorder": "@ui-border@",
+    // "settings.sashBorder": "@transparent@",
+
     // Breadcrumbs
     "breadcrumb.foreground": "@foreground:aa@",
     "breadcrumb.background": "@ui-background@",
@@ -642,12 +668,6 @@
   },
   "tokenColors": [
     {
-      "scope": ["meta.embedded", "source.groovy.embedded"],
-      "settings": {
-        "foreground": "#D4D4D4"
-      }
-    },
-    {
       "scope": ["meta.link.inline.markdown"],
       "settings": {
         "fontStyle": "underline"
@@ -661,6 +681,12 @@
     },
     {
       "scope": "strong",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "emphasis strong",
       "settings": {
         "fontStyle": "bold"
       }
@@ -1055,6 +1081,18 @@
       "scope": "meta.attribute.rust",
       "settings": {
         "foreground": "@baby-lavender@"
+      }
+    },
+    {
+      "scope": "meta.interpolation.rust",
+      "settings": {
+        "foreground": "@lilac@"
+      }
+    },
+    {
+      "scope": "punctuation.definition.interpolation.rust",
+      "settings": {
+        "foreground": "@baby-blue@"
       }
     }
   ]

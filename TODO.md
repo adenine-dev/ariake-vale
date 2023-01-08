@@ -6,4 +6,8 @@
 - [x] changed markers by linenum aren't correct colors
 - [x] preview text is too bright
 - [x] highlight on ctrl+click is bad
-- [ ] button is wrong
+- [x] button is wrong
+- [ ] collapsible headers in the explorer are wrong color
+- [x] rust print format specifiers
+- [ ] secondary button
+- [ ] better semantic highlighting
